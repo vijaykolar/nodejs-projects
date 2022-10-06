@@ -28,3 +28,32 @@ The package.json files contains information such as the project description, the
 project in a particular distribution, license information, and configuration data.
 
 The package.json file is normally located at the root directory of a Node.js project.
+
+## What is Express.js
+
+Express.js is a Node js web application server framework, which is specifically designed for
+building single-page, multi-page, and hybrid web applications.
+
+The MERN is a free and open-source JavaScript software stack for building dynamic web sites
+and web applications which has the following components;
+
+1. MongoDB - The standard NoSQL database
+2. Express.js - The default web applications framework
+3. React.js - The JavaScript library used for web applications
+4. Node.js - Framework used for scalable server-side and networking applications.
+
+The Express.js framework makes it very easy to develop an application which can be used to
+handle multiple types of requests like the GET, PUT, PATCH, POST and DELETE requests.
+
+## What are Routes
+
+Routing refers for determining the way in which an application responds to a client request to
+a particular endpoint.
+For example, a client can make a GET, POST, PUT or DELETE http request for various URL's
+such as the one's shown below;
+
+1. http://localhost:3000/api/books
+2. http://localhost:3000/api/students
+
+The general syntax for a route is shown below
+`app.METHOD(PATH, HANDLER)`
